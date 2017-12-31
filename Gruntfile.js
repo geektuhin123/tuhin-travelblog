@@ -68,7 +68,7 @@ module.exports = (grunt) => {
     }, 500);
   });
 
-  grunt.registerTask('default', [
+  grunt.registerTask('default', 
     'develop',
     'watch'
   ]);
