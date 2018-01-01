@@ -6,7 +6,7 @@ const config = {
   development: {
     root: rootPath,
     app: {
-      name: 'tuhin-travelblog {dev}'
+      name: 'tuhin-travelblog | {dev}'
     },
     port: process.env.PORT || 3000,
   },
@@ -14,7 +14,7 @@ const config = {
   test: {
     root: rootPath,
     app: {
-      name: 'tuhin-travelblog {test}'
+      name: 'tuhin-travelblog | {test}'
     }, 
     port: process.env.PORT || 3000,
   },
@@ -22,7 +22,7 @@ const config = {
   production: {
     root: rootPath,
     app: {
-      name: 'tuhin-travelblog {prod}'
+      name: 'tuhin-travelblog | {prod}'
     },
     port: process.env.PORT || 3000,
   }
